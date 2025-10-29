@@ -1,8 +1,8 @@
-Flask
-flask-cors
-mediapipe
-opencv-python
-numpy
-pandas
-requests
-gunicorn
+Flask==3.0.3
+flask-cors==4.0.0
+mediapipe==0.10.9
+opencv-python==4.10.0.84
+numpy==1.26.4
+pandas==2.2.2
+requests==2.32.3
+gunicorn==21.2.0
