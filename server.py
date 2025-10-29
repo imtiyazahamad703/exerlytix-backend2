@@ -85,7 +85,7 @@ def stop_python():
 
                 import requests
                 try:
-                    requests.post("http://localhost:8081/api/exercise/update", json=payload, timeout=5)
+                    requests.post("https://exerlytix-backend1.onrender.com/api/exercise/update", json=payload, timeout=5)
                     print("✅ Data sent successfully to backend!")
                 except Exception as e:
                     print(f"❌ Backend update failed: {e}")

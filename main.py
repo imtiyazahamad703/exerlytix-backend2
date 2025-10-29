@@ -21,7 +21,7 @@ mp_pose = mp.solutions.pose
 
 exercise_type = args["exercise_type"]
 user_id = args["user_id"]
-backend_url = "http://localhost:8081/api/exercise"
+backend_url = "https://exerlytix-backend1.onrender.com/api/exercise"
 cap = cv2.VideoCapture("Exercise Videos/" + args["video_source"]) if args["video_source"] else cv2.VideoCapture(0)
 
 cap.set(3, 800)
